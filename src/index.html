@@ -1,0 +1,58 @@
+<!-- Module 2 - Activity 3 - Your Portfolio: Styling From Your Design System
+
+  Your portfolio has structure (A1) and a projects grid (A2). Now add the
+  VISUAL LAYER - using ONLY your design system from Week 2.
+
+  This is a starter SHELL that already uses the component classes .nav-link,
+  .btn and .card. Replace its placeholder content with YOUR portfolio (or paste
+  in your Activity 2 page) - the styling work happens in styles.css.
+
+  All the styling instructions, and your system legend, are in styles.css.
+  Style by CLASS only - no style="" attributes. Delete this comment when done.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <span class="site-name">Your Name</span>
+      <nav>
+        <ul>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Your Name</h1>
+        <p>What you do, in one line.</p>
+        <a class="btn" href="#projects">See my work</a>
+      </section>
+
+      <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <article class="card">
+          <h3 class="card-title">Project Title</h3>
+          <p class="card-desc">One line about this project.</p>
+          <a class="card-link" href="#">View</a>
+        </article>
+        <article class="card">
+          <h3 class="card-title">Project Title</h3>
+          <p class="card-desc">One line about this project.</p>
+          <a class="card-link" href="#">View</a>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Contact: <a class="nav-link" href="mailto:you@example.com">you@example.com</a></p>
+    </footer>
+  </body>
+</html>

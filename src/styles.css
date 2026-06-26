@@ -1,0 +1,35 @@
+/* ============================================================
+   MY DESIGN SYSTEM - use only these values (fill in from Week 2)
+   ------------------------------------------------------------
+   background  #______      text/ink   #______
+   primary     #______      accent     #______   (sparing - 10%)
+   headings    __px / __px  body       __px
+   spacing     8 / 16 / 24 / 32 px
+   fonts       ______ (headings) / ______ (body)
+   ------------------------------------------------------------
+   RULE: if a value is not in this legend, it does not go in this file.
+   ============================================================ */
+
+/* WORKED EXAMPLE - the page base. Replace the placeholder values with YOUR
+   own from the legend above (same hex, same sizes everywhere). */
+body {
+  background: #ffffff;       /* TODO: your background colour */
+  color: #111111;            /* TODO: your text colour */
+  font-family: sans-serif;   /* TODO: your body font */
+  margin: 0;
+}
+
+/* Navigation links. TODO: colour, no underline, spacing from your legend. */
+.nav-link {
+  /* TODO: colour from your legend, text-decoration, padding from your scale */
+}
+
+/* Buttons - the accent belongs here (the "10"). TODO: finish from legend. */
+.btn {
+  /* TODO: background = your accent, text colour, padding from your scale */
+}
+
+/* The project card component - style the CLASS once. TODO: finish from legend. */
+.card {
+  /* TODO: padding from your scale, a subtle border, headings/body sizes */
+}
